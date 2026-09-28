@@ -4,7 +4,7 @@ import { createContext, useEffect, useState } from "react";
 export const userDataContext = createContext();
 
 const UserContext = ({ children }) => {
-  const serverUrl = "http://localhost:8000";
+  const serverUrl = "https://notes-one-delta-86.vercel.app";
   const [userData, setUserData] = useState(null);
 
   const handleCurrentUser = async () => {
