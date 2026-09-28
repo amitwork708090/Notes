@@ -18,7 +18,7 @@ dns.setServers(["8.8.8.8", "8.8.4.4"]);
 // Middleware
 app.use(
     cors({
-        origin: "http://localhost:5173",
+        origin: "https://notes-frontend-seven-beta.vercel.app",
         credentials: true,
     })
 );
