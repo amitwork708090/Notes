@@ -1,12 +1,14 @@
-📝 Notes Application
+# 📝 Notes Application
 
 A full-stack Notes Application built from scratch using the MERN stack.
 
-🔗 Live Demo: https://notes-frontend-seven-beta.vercel.app
+This is my **first website that I built independently without following a step-by-step tutorial**. I used ChatGPT only for a little help with UI ideas and improvements.
+
+🔗 **Live Demo:** https://notes-frontend-seven-beta.vercel.app
 
 ---
 
-🚀 Features
+## 🚀 Features
 
 - 🔐 User Sign Up & Sign In
 - 🍪 JWT Authentication using HTTP-only Cookies
@@ -23,9 +25,9 @@ A full-stack Notes Application built from scratch using the MERN stack.
 
 ---
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
-Frontend
+### Frontend
 
 - React.js
 - Vite
@@ -46,14 +48,15 @@ Frontend
 - Cookie Parser
 - CORS
 
-Deployment
+### Deployment
 
 - Vercel
 
 ---
 
-📂 Project Structure
+## 📂 Project Structure
 
+```
 Notes-Application/
 │
 ├── frontend/
@@ -75,8 +78,6 @@ Notes-Application/
 │   │   ├── App.jsx
 │   │   └── main.jsx
 │   │
-│   ├── index.html
-│   ├── vercel.json
 │   ├── package.json
 │   └── vite.config.js
 │
@@ -86,7 +87,7 @@ Notes-Application/
 │   ├── middleware/
 │   ├── models/
 │   ├── routes/
-│   ├── index.js
+│   ├── server.js
 │   ├── package.json
 │   └── vercel.json
 │
